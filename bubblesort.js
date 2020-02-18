@@ -14,7 +14,6 @@ function bubbleSort(array) {
   while (j<array.length){ //outer loop to make sure all iterations are done
 
     for (let i=0; i<array.length-1; i++) { //inner loop - sorting
-      debugger;
       pointer1 = array[i];
       pointer2 = array[i+1];
 
@@ -32,7 +31,7 @@ function bubbleSort(array) {
     }
 
     j++;
-    console.log("whileLoop counter", j)
+    // console.log("whileLoop counter", j)
   }
 
 
